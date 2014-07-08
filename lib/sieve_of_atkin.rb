@@ -1,5 +1,9 @@
 class SieveOfAtkin
-  def generate(count)
+  def initialize(count)
+    @count = count
+  end
 
+  def generate
+    raise "Not Implemented yet. Use Eratosthenes's sieve"
   end
 end
