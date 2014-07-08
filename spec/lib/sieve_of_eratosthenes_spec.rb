@@ -17,6 +17,11 @@ describe SieveOfEratosthenes do
       expect(sieve.generate).to match_array [2,3,5,7,11,13,17,19,23, 29]
     end
 
+    it "returns required number of primes" do
+      sieve = SieveOfEratosthenes.new(21)
+      expect(sieve.generate.size).to eq 21
+    end
+
     it "generates only prime number" do
       sieve = SieveOfEratosthenes.new(1000)
       primes = sieve.generate
