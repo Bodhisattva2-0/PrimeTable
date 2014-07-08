@@ -1,3 +1,10 @@
+##Steps to run:
+
+* Git clone git@github.com:Bodhisattva2-0/PrimeTable.git
+* Change directory to project PrimeTable
+* ./bin/ten_primes.rb from command line
+
+##Problem:
 Write a program that prints out a multiplication table of the ﬁrst 10 prime
 numbers.
 The program must run from the command line and print one table to
