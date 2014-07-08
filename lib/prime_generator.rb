@@ -1,10 +1,10 @@
 class PrimeGenerator
-  def initialize(count, generator)
+  def initialize(count, sieve)
     @count = count
-    @generator = generator
+    @sieve = sieve.new(@count)
   end
 
-  def generate
-    @generator.generate(count)
+  def primes
+    @sieve.generate
   end
 end
