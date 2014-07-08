@@ -2,12 +2,10 @@ require_relative '../../lib/sieve_of_atkin.rb'
 
 describe SieveOfAtkin do
   describe "generate" do
-    pending "returns required number of primes" do
+    it "returns required number of primes"
 
-    end
 
-    pending "returns only prime numbers" do
+    it "returns only prime numbers"
 
-    end
   end
 end
