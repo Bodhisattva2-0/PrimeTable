@@ -3,4 +3,4 @@ require_relative "../prime_table.rb"
 require_relative "../lib/sieve_of_eratosthenes.rb"
 
 prime_table = PrimeTable.new(10, SieveOfEratosthenes)
-prime_table.display
+puts prime_table.display
